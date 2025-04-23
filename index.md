@@ -82,7 +82,7 @@
   <p><span style="color:#e67e22;"><b>Q2:</span> Can multiple users access the same SQLite database at once?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> SQLite allows concurrent reads, but only one write operation can occur at a time. It's not ideal for high-concurrency, multi-user applications and hence, better suited for single-user or low-write scenarios.</p>
 
-  <p><span style="color:#e67e22;"><b>Q3:></span> Where is the data stored in SQLite?</p></b>
+  <p><span style="color:#e67e22;"><b>Q3:</span> Where is the data stored in SQLite?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> In a single <code>.db</code> file on your local system. You can specify the filename when connecting to the database (e.g., <code>sqlite3 mydata.db</code>).</p>
 
   <p><span style="color:#e67e22;"><b>Q4:</span> Can I use SQLite with Python / Java / Node.js?</p></b>
