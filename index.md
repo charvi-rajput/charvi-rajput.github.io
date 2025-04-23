@@ -3,7 +3,7 @@
     <span style="color:#e67e22;">SQLite</span>
   </h1>
 
-<hr style="border: none; height: 2px; background-color: #e67e22; margin: -5 px auto; width: 60%;">
+<hr style="border: none; height: 2px; background-color: #e67e22; margin: 20px auto; width: 60%;">
 
 ## Table of Contents  
 - [Table of Contents](#table-of-contents)
@@ -20,8 +20,7 @@
 
 ## What is SQLite?
 
-**SQLite** is a lightweight, serverless, self-contained SQL database engine.  
-Unlike other databases, it doesn’t require a separate server to run.
+**SQLite** is a lightweight, serverless, self-contained SQL database engine. Unlike other databases, it doesn’t require a separate server to run.
 
 ---
 
@@ -63,28 +62,26 @@ sqlite --version
 
 ## FAQs
 
-**<span style="color:#e67e22;">Q1:</span>**
-**What makes SQLite different from other databases like MySQL?**  
+<b><span style="color:#e67e22;">Q1:</span>
+What makes SQLite different from other databases like MySQL?</b>
 
 **<span style="color:#e67e22;">A:</span>** 
 SQLite is a lightweight, embedded database for small-scale apps, while SQL Server is an enterprise-grade database for large-scale, transactional applications.
 
-
-**<span style="color:#e67e22;">Q2:</span>**
-**Can multiple users access the same SQLite database at once?**  
+<b><span style="color:#e67e22;">Q2:</span> Can multiple users access the same SQLite database at once?</b>
 
 **<span style="color:#e67e22;">A:</span>** 
 SQLite allows concurrent reads, but only one write at a time. It’s best for single-user or low-write scenarios.
 
-**<span style="color:#e67e22;">Q3:</span>**
-**Where is the data stored in SQLite?**  
+<b><span style="color:#e67e22;">Q3:</span>
+Where is the data stored in SQLite?</b>
 
 **<span style="color:#e67e22;">A:</span>** 
 In a single `.db` file on your local system. For example:  
 `sqlite3 mydata.db`
 
-**<span style="color:#e67e22;">Q4:</span>**
-**Can I use SQLite with Python / Java / No**  
+<b><span style="color:#e67e22;">Q4:</span>
+Can I use SQLite with Python / Java / Node.js?</b>  
 
 **<span style="color:#e67e22;">A:</span>** 
 Yes!  
@@ -92,11 +89,11 @@ Yes!
 - Node.js: `sqlite3` or `better-sqlite3`  
 - Java: Use `JDBC` with an SQLite driver
 
-**<span style="color:#e67e22;">Q5:</span>**
-**How do I back up a SQLite database?**  
+<b><span style="color:#e67e22;">Q5:</span>
+How do I back up a SQLite database?</b>
 
 **<span style="color:#e67e22;">A:</span>** 
-**A:** Just copy the `.db` file. Ensure no write operations are happening during the copy.
+Just copy the `.db` file. Ensure no write operations are happening during the copy.
 
 ---
 
@@ -108,5 +105,5 @@ You’ve now reached the end of this beginner-friendly guide to SQLite. Well don
 - Experiment with joins, indexes, and complex queries  
 - Explore GUI tools like DB Browser for SQLite or DBeaver
 
-**<span style="color:#e67e22;">Happy Querying! 👨🏽‍💻</span>**
+<b><span style="color:#e67e22;">Happy Querying! 👨🏽‍💻</span></b>
 
