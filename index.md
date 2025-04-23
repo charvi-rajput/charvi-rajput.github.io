@@ -73,7 +73,7 @@ sqlite --version
 
 - [SQL Tutorial](https://www.sqltutorial.org/)
 - [SQL Functions](https://www.sqltutorial.org/sql-aggregate-functions/)
-- [SQLite Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+- [SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
 ---
 
@@ -93,8 +93,8 @@ SQLite allows concurrent reads, but only one write at a time. It’s best for si
 <b><span style="color:#e67e22;">Q3:</span>
 Where is the data stored in SQLite?</b>  
 **<span style="color:#e67e22;">A:</span>** 
-In a single `.db` file on your local system. For example:  
-`sqlite3 mydata.db`
+In a single `.db` file on your local system. 
+For example: `sqlite3 mydata.db`
 
 <b><span style="color:#e67e22;">Q4:</span>
 Can I use SQLite with Python / Java / Node.js?</b>  
