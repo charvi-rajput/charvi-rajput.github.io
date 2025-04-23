@@ -25,14 +25,14 @@
 
   <hr>
 
-  ## What is SQLite?
+## What is SQLite?
   <p style="font-size: 1.05rem;">
     <b>SQLite</b> is a lightweight, serverless, self-contained SQL database engine. Unlike other databases, it doesn’t require a separate server to run.
   </p>
 
   <hr>
 
-  ## Why Use SQLite?
+## Why Use SQLite?
   <ul style="font-size: 1.05rem;">
     <li>No server setup required</li>
     <li>Great for mobile apps, small projects, and prototyping</li>
@@ -42,7 +42,7 @@
 
   <hr>
 
-  ## 🛠️ Installation Guide
+## 🛠️ Installation Guide  
 
   ### 📦 Step 1: Download SQLite
   <p style="font-size: 1.05rem;">
@@ -60,7 +60,7 @@
   <pre style="background-color: #2d3436; color: #ecf0f1; padding: 12px; border-radius: 5px;">
 <code>sqlite3 --version</code>
   </pre>
-  
+
   <hr>
 
   ## 🔗 Further Resources
@@ -75,16 +75,16 @@
   ## ❓ FAQs
 
   <div style="font-size: 1.05rem;">
-    <p><span style="color:#e67e22;"><b>Q1:</span> What makes SQLite different from other databases like MySQL?</p></b>
+  <p><span style="color:#e67e22;"><b>Q1:</span> What makes SQLite different from other databases like MySQL?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> SQLite is a lightweight, embedded database for small-scale apps, while SQL Server is a powerful, enterprise-grade database for large-scale and transactional applications.</p>
 
   <p><span style="color:#e67e22;"><b>Q2:</span> Can multiple users access the same SQLite database at once?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> SQLite allows concurrent reads, but only one write operation can occur at a time. It's not ideal for high-concurrency, multi-user applications and hence, better suited for single-user or low-write scenarios.</p>
 
-  <p><span style="color:#e67e22;"><b>Q3:</b></span> Where is the data stored in SQLite?</p></b>
+  <p><span style="color:#e67e22;"><b>Q3:></span> Where is the data stored in SQLite?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> In a single <code>.db</code> file on your local system. You can specify the filename when connecting to the database (e.g., <code>sqlite3 mydata.db</code>).</p>
 
-  <p><span style="color:#e67e22;"><b>Q4:</b></span> Can I use SQLite with Python / Java / Node.js?</p></b>
+  <p><span style="color:#e67e22;"><b>Q4:</span> Can I use SQLite with Python / Java / Node.js?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> Yes! SQLite is supported by most major languages:
       <ul>
         <li>Python: <code>sqlite3</code> module (built-in)</li>
@@ -93,7 +93,7 @@
       </ul>
     </p>
 
-  <p><span style="color:#e67e22;"><b>Q5:</b></span> How do I back up a SQLite database?</p></b>
+  <p><span style="color:#e67e22;"><b>Q5:</span> How do I back up a SQLite database?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> Just copy the <code>.db</code> file! Make sure no write operations are occurring during the copy to avoid corruption.</p>
   </div>
 
