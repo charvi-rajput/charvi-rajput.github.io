@@ -3,13 +3,13 @@
     <span style="color:#e67e22;">SQLite</span>
   </h1>
 
-<h2 style=" padding: 10px 15px; background-color:rgb(102, 99, 96); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+<h2 style=" padding: 10px 15px; background-color:rgb(184, 180, 177); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
 
 - [What is SQLite?](#what-is-sqlite)
 - [Why Use SQLite?](#why-use-sqlite)
 - [Installation Guide](#installation-guide)
-  - [📦 Step 1: Download SQLite](#-step-1-download-sqlite)
-  - [🔽 Step 2: Verify Installation](#-step-2-verify-installation)
+    - [📦 Step 1: Download SQLite](#-step-1-download-sqlite)
+    - [🔽 Step 2: Verify Installation](#-step-2-verify-installation)
 - [Further Resources](#further-resources)
 - [FAQs](#faqs)
 - [Conclusion](#conclusion)
@@ -29,7 +29,7 @@
 
 ## Installation Guide
 
-### 📦 Step 1: Download SQLite
+#### 📦 Step 1: Download SQLite
 
 Go to the [SQLite Downloads page](https://www.sqlite.org/download.html) and download:
 
@@ -37,7 +37,7 @@ Go to the [SQLite Downloads page](https://www.sqlite.org/download.html) and down
 - **Mac**: Use Homebrew – `brew install sqlite`  
 - **Linux**: `sudo apt install sqlite3`
 
-### 🔽 Step 2: Verify Installation
+#### 🔽 Step 2: Verify Installation
 
 Open a terminal and type:  
 ```bash 
