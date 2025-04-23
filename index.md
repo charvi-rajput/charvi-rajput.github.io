@@ -3,8 +3,8 @@
     <span style="color:#e67e22;">SQLite</span>
   </h1>
 
-## Table of Contents  
-- [Table of Contents](#table-of-contents)
+<h2 style=" padding: 10px 15px; background-color:rgb(102, 99, 96); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+
 - [What is SQLite?](#what-is-sqlite)
 - [Why Use SQLite?](#why-use-sqlite)
 - [Installation Guide](#installation-guide)
@@ -14,13 +14,10 @@
 - [FAQs](#faqs)
 - [Conclusion](#conclusion)
 
----
-
 ## What is SQLite?
-
 **SQLite** is a lightweight, serverless, self-contained SQL database engine. Unlike other databases, it doesn’t require a separate server to run.
 
----
+
 
 ## Why Use SQLite?
 
@@ -29,7 +26,6 @@
 - Just one file = one database  
 - Easy to use with Python, JavaScript, etc.
 
----
 
 ## Installation Guide
 
@@ -48,7 +44,6 @@ Open a terminal and type:
 sqlite --version
 ```
 
----
 
 ## Further Resources
 
@@ -56,7 +51,7 @@ sqlite --version
 - [SQL Functions](https://www.sqltutorial.org/sql-aggregate-functions/)
 - [SQLite Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
----
+
 
 ## FAQs
 
@@ -88,7 +83,6 @@ How do I back up a SQLite database?</b>
 **<span style="color:#e67e22;">A:</span>** 
 Just copy the `.db` file. Ensure no write operations are happening during the copy.
 
----
 
 ## Conclusion
 
