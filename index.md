@@ -1,35 +1,45 @@
-<h1 style="font-size: 2.5rem; margin-bottom: 0;">
+<h1 style="font-size: 2.5rem; margin-bottom: 0; border:none;">
     <span>Getting Started with </span>
     <span style="color:#e67e22;">SQLite</span>
   </h1>
 
-<h2 style=" padding: 10px 15px; background-color:rgb(230, 226, 223); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+---
 
-- [What is SQLite?](#what-is-sqlite)
-- [Why Use SQLite?](#why-use-sqlite)
-- [Installation Guide](#installation-guide)
-    - [📦 Step 1: Download SQLite](#-step-1-download-sqlite)
-    - [🔽 Step 2: Verify Installation](#-step-2-verify-installation)
-- [Further Resources](#further-resources)
-- [FAQs](#faqs)
-- [Conclusion](#conclusion)
 
-## What is SQLite?
+<h2 style=" padding: 10px 15px; background-color:#ecf0f1; border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+
+- [📦 Step 1: Download SQLite](#-step-1-download-sqlite)
+- [🔽 Step 2: Verify Installation](#-step-2-verify-installation)
+  
+---
+<h2 style="margin-bottom: 0; border:none;">
+    <span>What is </span>
+    <span style="color:#e67e22;">SQLite</span>
+    <span>?</span>
+  </h2>
+
 **SQLite** is a lightweight, serverless, self-contained SQL database engine. Unlike other databases, it doesn’t require a separate server to run.
 
+---
 
-
-## Why Use SQLite?
+<h2 style="margin-bottom: 0; border:none;">
+    <span>Why use</span>
+    <span style="color:#e67e22;">SQLite</span>
+    <span>?</span>
+  </h2>
 
 - No server setup required  
 - Great for mobile apps, small projects, and prototyping  
 - Just one file = one database  
 - Easy to use with Python, JavaScript, etc.
 
+---
 
-## Installation Guide
+<h2 style="margin-bottom: 0; border:none;">
+    <span>Installation Guide </span>
+  </h2>
 
-#### 📦 Step 1: Download SQLite
+### 📦 Step 1: Download SQLite
 
 Go to the [SQLite Downloads page](https://www.sqlite.org/download.html) and download:
 
@@ -37,23 +47,28 @@ Go to the [SQLite Downloads page](https://www.sqlite.org/download.html) and down
 - **Mac**: Use Homebrew – `brew install sqlite`  
 - **Linux**: `sudo apt install sqlite3`
 
-#### 🔽 Step 2: Verify Installation
+### 🔽 Step 2: Verify Installation
 
 Open a terminal and type:  
 ```bash 
 sqlite --version
 ```
 
+---
 
-## Further Resources
+<h2 style="margin-bottom: 0; border:none;">
+    <span>Further Resources </span>
+  </h2>
 
 - [SQL Tutorial](https://www.sqltutorial.org/)
 - [SQL Functions](https://www.sqltutorial.org/sql-aggregate-functions/)
 - [SQLite Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
+---
 
-
-## FAQs
+<h2 style="margin-bottom: 0; border:none;">
+    <span>FAQs</span>
+  </h2>
 
 <b><span style="color:#e67e22;">Q1:</span>
 What makes SQLite different from other databases like MySQL?</b>  
@@ -83,8 +98,11 @@ How do I back up a SQLite database?</b>
 **<span style="color:#e67e22;">A:</span>** 
 Just copy the `.db` file. Ensure no write operations are happening during the copy.
 
+---
 
-## Conclusion
+<h2 style="margin-bottom: 0; border:none;">
+    <span>Conclusion</span>
+  </h2>
 
 You’ve now reached the end of this beginner-friendly guide to SQLite. Well done!
 
@@ -94,3 +112,7 @@ You’ve now reached the end of this beginner-friendly guide to SQLite. Well don
 
 <b><span style="color:#e67e22;">Happy Querying! 👨🏽‍💻</span></b>
 
+---
+
+<img src="sql.png" width="65" height="33" alt="Description"> 
+<a style="color:grey";>© 2025 SQLite</a>
