@@ -7,12 +7,22 @@
 
 
 <h2 style=" padding: 10px 15px; background-color:#ecf0f1; border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+    <li><a href="#what">What is SQLite?</a></li>
+    <li><a href="#why">Why Use SQLite?</a></li>
+    <li><a href="#install"> Installation Guide</a>
+      <ul>
+        <li><a href="#-step-1-download-sqlite">📦 Step 1: Download SQLite</a></li>
+        <li><a href="#-step-2-verify-installation">🔽 Step 2: Verify Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#reso">Further Resources</a></li>
+    <li><a href="#faqs">FAQs</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
 
-- [📦 Step 1: Download SQLite](#-step-1-download-sqlite)
-- [🔽 Step 2: Verify Installation](#-step-2-verify-installation)
-  
 ---
-<h2 style="margin-bottom: 0; border:none;">
+
+<h2 id="what" style="margin-bottom: 0; border:none;">
     <span>What is </span>
     <span style="color:#e67e22;">SQLite</span>
     <span>?</span>
@@ -22,7 +32,7 @@
 
 ---
 
-<h2 style="margin-bottom: 0; border:none;">
+<h2 id="why" style="margin-bottom: 0; border:none;">
     <span>Why use</span>
     <span style="color:#e67e22;">SQLite</span>
     <span>?</span>
@@ -35,7 +45,7 @@
 
 ---
 
-<h2 style="margin-bottom: 0; border:none;">
+<h2 id="install" style="margin-bottom: 0; border:none;">
     <span>Installation Guide </span>
   </h2>
 
@@ -56,7 +66,7 @@ sqlite --version
 
 ---
 
-<h2 style="margin-bottom: 0; border:none;">
+<h2 id="reso" style="margin-bottom: 0; border:none;">
     <span>Further Resources </span>
   </h2>
 
@@ -66,7 +76,7 @@ sqlite --version
 
 ---
 
-<h2 style="margin-bottom: 0; border:none;">
+<h2 id="faqs" style="margin-bottom: 0; border:none;">
     <span>FAQs</span>
   </h2>
 
@@ -100,7 +110,7 @@ Just copy the `.db` file. Ensure no write operations are happening during the co
 
 ---
 
-<h2 style="margin-bottom: 0; border:none;">
+<h2 id="conclusion" style="margin-bottom: 0; border:none;">
     <span>Conclusion</span>
   </h2>
 
@@ -114,5 +124,5 @@ You’ve now reached the end of this beginner-friendly guide to SQLite. Well don
 
 ---
 
-<img src="sql.png" width="65" height="33" alt="Description"> 
-<a style="color:grey";>© 2025 SQLite</a>
+<img src="sql.png" width="65" height="33" alt="Description">
+<span style="color:grey";>© 2025 SQLite</span>
