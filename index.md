@@ -125,8 +125,8 @@ You’ve now reached the end of this beginner-friendly guide to SQLite. Well don
 
 ---
 
-<img src="sql.png" alt="SQLite logo" style="height: 1.6em; width: 3.5em; vertical-align: middle;">
-<span style="color: grey;">© 2025 SQLite</span>
+<img src="sql.png" alt="SQLite logo" style="height: 30px; vertical-align:-0.4em;">
+<span style="font-size: 13px; color: grey;">© 2025 SQLite</span>
 
 
 
