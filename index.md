@@ -3,7 +3,7 @@
     <span style="color:#e67e22;">SQLite</span>
   </h1>
 
-<h2 style=" padding: 10px 15px; background-color:rgb(184, 180, 177); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+<h2 style=" padding: 10px 15px; background-color:rgb(230, 226, 223); border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
 
 - [What is SQLite?](#what-is-sqlite)
 - [Why Use SQLite?](#why-use-sqlite)
