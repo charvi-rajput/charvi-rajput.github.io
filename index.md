@@ -25,14 +25,14 @@
 
   <hr>
 
-## What is SQLite?
+## What is SQLite?  
   <p style="font-size: 1.05rem;">
     <b>SQLite</b> is a lightweight, serverless, self-contained SQL database engine. Unlike other databases, it doesn’t require a separate server to run.
   </p>
 
   <hr>
 
-## Why Use SQLite?
+## Why Use SQLite?  
   <ul style="font-size: 1.05rem;">
     <li>No server setup required</li>
     <li>Great for mobile apps, small projects, and prototyping</li>
@@ -42,9 +42,9 @@
 
   <hr>
 
-## 🛠️ Installation Guide  
+## 🛠️ Installation Guide    
 
-  ### 📦 Step 1: Download SQLite
+### 📦 Step 1: Download SQLite  
   <p style="font-size: 1.05rem;">
     Go to the <a href="https://www.sqlite.org/download.html" target="_blank" style="color:#2980b9;">SQLite Downloads page</a> and download:
   </p>
@@ -54,16 +54,16 @@
     <li><b>Linux:</b> <code>sudo apt install sqlite3</code></li>
   </ul>
 
-  ### 🔽 Step 2: Verify Installation
+### 🔽 Step 2: Verify Installation  
   <p>Open a terminal and type:</p>
 
   <pre style="background-color: #2d3436; color: #ecf0f1; padding: 12px; border-radius: 5px;">
-<code>sqlite3 --version</code>
+  <code>sqlite3 --version</code>
   </pre>
 
   <hr>
 
-  ## 🔗 Further Resources
+## 🔗 Further Resources
   <ul style="font-size: 1.05rem;">
     <li><a href="https://www.sqltutorial.org/" style="color:#2980b9;">SQL Tutorial</a></li>
     <li><a href="https://www.sqltutorial.org/sql-aggregate-functions/" style="color:#2980b9;">SQL Functions</a></li>
@@ -72,10 +72,11 @@
 
   <hr>
 
-  ## ❓ FAQs
+## ❓ FAQs
 
-  <div style="font-size: 1.05rem;">
-  <p><span style="color:#e67e22;"><b>Q1:</span> What makes SQLite different from other databases like MySQL?</p></b>
+<div style="font-size: 1.05rem;">
+    <p><span style="color:#e67e22;"><b>Q1:</span>   
+    What makes SQLite different from other databases like MySQL?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> SQLite is a lightweight, embedded database for small-scale apps, while SQL Server is a powerful, enterprise-grade database for large-scale and transactional applications.</p>
 
   <p><span style="color:#e67e22;"><b>Q2:</span> Can multiple users access the same SQLite database at once?</p></b>
@@ -93,9 +94,9 @@
       </ul>
     </p>
 
-  <p><span style="color:#e67e22;"><b>Q5:</span> How do I back up a SQLite database?</p></b>
+  <p><span style="color:#e67e22;"><b>Q5:</span>   How do I back up a SQLite database?</p></b>
     <p><span style="color:#e67e22;"><b>A:</b></span> Just copy the <code>.db</code> file! Make sure no write operations are occurring during the copy to avoid corruption.</p>
-  </div>
+</div>
 
   <hr>
 
