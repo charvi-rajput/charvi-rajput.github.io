@@ -1,9 +1,7 @@
-<h1 style="font-size: 2.5rem; text-align: center; margin-bottom: 0;">
+<h1 style="font-size: 2.5rem; margin-bottom: 0;">
     <span>Getting Started with </span>
     <span style="color:#e67e22;">SQLite</span>
   </h1>
-
-<hr style="border: none; height: 2px; background-color: #e67e22; margin: 20px auto; width: 60%;">
 
 ## Table of Contents  
 - [Table of Contents](#table-of-contents)
@@ -63,26 +61,22 @@ sqlite --version
 ## FAQs
 
 <b><span style="color:#e67e22;">Q1:</span>
-What makes SQLite different from other databases like MySQL?</b>
-
+What makes SQLite different from other databases like MySQL?</b>  
 **<span style="color:#e67e22;">A:</span>** 
 SQLite is a lightweight, embedded database for small-scale apps, while SQL Server is an enterprise-grade database for large-scale, transactional applications.
 
-<b><span style="color:#e67e22;">Q2:</span> Can multiple users access the same SQLite database at once?</b>
-
+<b><span style="color:#e67e22;">Q2:</span> Can multiple users access the same SQLite database at once?</b>  
 **<span style="color:#e67e22;">A:</span>** 
 SQLite allows concurrent reads, but only one write at a time. It’s best for single-user or low-write scenarios.
 
 <b><span style="color:#e67e22;">Q3:</span>
-Where is the data stored in SQLite?</b>
-
+Where is the data stored in SQLite?</b>  
 **<span style="color:#e67e22;">A:</span>** 
 In a single `.db` file on your local system. For example:  
 `sqlite3 mydata.db`
 
 <b><span style="color:#e67e22;">Q4:</span>
 Can I use SQLite with Python / Java / Node.js?</b>  
-
 **<span style="color:#e67e22;">A:</span>** 
 Yes!  
 - Python: `sqlite3` module (built-in)  
@@ -90,8 +84,7 @@ Yes!
 - Java: Use `JDBC` with an SQLite driver
 
 <b><span style="color:#e67e22;">Q5:</span>
-How do I back up a SQLite database?</b>
-
+How do I back up a SQLite database?</b>  
 **<span style="color:#e67e22;">A:</span>** 
 Just copy the `.db` file. Ensure no write operations are happening during the copy.
 
