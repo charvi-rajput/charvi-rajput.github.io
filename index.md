@@ -7,6 +7,7 @@
 
 
 <h2 style=" padding: 10px 15px; background-color:#ecf0f1; border-left: 5px solid #e67e22; border-radius: 4px;">Table of Contents</h2>
+<ul>
     <li><a href="#what">What is SQLite?</a></li>
     <li><a href="#why">Why Use SQLite?</a></li>
     <li><a href="#install"> Installation Guide</a>
@@ -124,5 +125,8 @@ You’ve now reached the end of this beginner-friendly guide to SQLite. Well don
 
 ---
 
-<img src="sql.png" width="65" height="33" alt="Description">
-<span style="color:grey";>© 2025 SQLite</span>
+<img src="sql.png" alt="SQLite logo" style="height: 1.6em; width: 3.5em; vertical-align: middle;">
+<span style="color: grey;">© 2025 SQLite</span>
+
+
+
