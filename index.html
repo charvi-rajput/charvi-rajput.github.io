@@ -5,265 +5,319 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Charvi Rajput | Technical Writer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="sidebar">
-    <img src="img/Port.jpg" alt="my img" id="photo">
-    <a href="#intro">ABOUT</a>
-    <a href="#skills">SKILLS</a>
-    <a href="#projects">PROJECTS</a>
-    <a href="#certi">CERTIFICATIONS</a>
-    <a href="#experience">EXPERIENCE</a>
-    <a href="#education">EDUCATION</a>
+  <div class="theme-switch">
+    <input type="checkbox" id="theme-toggle">
+    <label for="theme-toggle" class="toggle-label">
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-moon"></i>
+    </label>
+  </div>
 
+  <nav class="sidebar">
+    <div class="profile-container">
+      <img src="img/Port.jpg" alt="Charvi Rajput" id="photo">
+      <h2 class="name">Charvi Rajput</h2>
+      <p class="title">Technical Writer</p>
+    </div>
+    
+    <div class="nav-links">
+      <a href="#intro"><i class="fas fa-user"></i> About</a>
+      <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+      <a href="#projects"><i class="fas fa-code-branch"></i> Projects</a>
+      <a href="#certi"><i class="fas fa-certificate"></i> Certifications</a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+
+    <div class="social-links">90b98148in/c
+      <a href="https://www.linkedin.com/in/charvi-rajput-b90b98148?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/charvi-rajput" target="_blank" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:charvrajput@gmail.com" class="social-icon">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
   </nav>
 
   <div class="main-content">
-    <section id="intro">
-      <h1>Charvi Rajput</h1>
-      <p>Technical Writer | Documentation Specialist</p>
-      <p>
+    <section id="intro" class="section">
+      <div class="section-header">
+        <h1>About Me</h1>
+        <div class="underline"></div>
+      </div>
+      <p class="intro-text">
         Technical Writer with 6 months of freelance experience creating clear and easy-to-understand documentation for software products and developer tools. Skilled in writing a wide range of technical and non-technical documentations. Good at breaking down complex technical ideas to make them simple and user-friendly.
       </p>
-
-      <div id="linkedin">
-          <a href="https://www.linkedin.com/in/charvi-rajput-b90b98148?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="linkin-img">
-          <img src="img/linkedin.png" class="linkimg">
-          </a>
-
-          <a href="https://github.com/charvi-rajput" class="git-img">
-          <img src="img/gith.png" class="gitimg">
-          </a>
-
-          <a href="mailto:charvrajput@gmail.com" class="mail-img">
-          <img src="img/mail.png" class="mailimg">
-          </a>
+      <div class="social-links-about">
+        <a href="mailto:charvrajput@gmail.com" target="_blank" class="social-link">
+          <i class="fas fa-envelope"></i>
+          <span>charvrajput@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/charvi-rajput-b90b98148" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/charvi-rajput</span>
+        </a>
+        <a href="https://github.com/charvi-rajput" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+          <span>github.com/charvi-rajput</span>
+        </a>
       </div>
-      <hr>
     </section>
 
-    <section id="skills">
-      <h1>Skills</h1>
-        <h2>Core Skills</h2>  
-          <ul>
-            <li>• Technical Communication </li>
-            <li>• Technical Content Strategy </li>
-            <li>• Content Design and Development </li>
-            <li>• Information Architecture </li>
-          </ul>
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h1>Skills</h1>
+        <div class="underline"></div>
+      </div>
       
-        <br>
-
-        <h2>Technical Content</h2>  
-        <ul>
-          <li>• Implementation Guides</li>
-          <li>• User Guides</li>
-          <li>• Release Notes</li>
-          <li>• API Documentation</li>
-          <li>• SDK Documentation</li>
-          <li>• Technical Specifications</li>
-        </ul>
-
-        <br>
-
-        <h2>Documentation Tools</h2>  
-        <ul>
-          <li>• Markdown + MkDocs</li>
-          <li>• Sphinx</li>
-          <li>• Microsoft Office </li>
-          <li>• Help Authoring Tools - Madcap Flare, RoboHelp</li>
-          <li>• oXyGen XML Editor</li>
-          <li>• DITA (Basics)</li>
-          <li>• SDLC & DDLC</li>
-          <li>• Agile Methodology</li>
-          <li>• Confluence + Jira</li>
-          <li>• Style Guides</li>
-          <li>• Snagit</li>
-          <li>• Canva</li>
-        </ul>
-
-        <br>
-
-        <h2>Technical Software</h2>  
-        <ul>
-          <li>• Git</li>
-          <li>• GitHub </li>
-          <li>• Postman</li>
-          <li>• OpenAPI (Swagger)</li>
-        </ul>
-
-        <br>
-
-        <h2>Programming Skills</h2>  
-        <ul>
-          <li>• HTML + CSS</li>
-          <li>• XML </li>
-          <li>• JSON</li>
-          <li>• YAML</li>
-          <li>• Python</li>
-        </ul>
-        <br>
-        <hr>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>User Guide Documentation</strong></li>
-        <p>This User Guide provides clear and concise instructions to help and install SQLite effectively. It covers everything from getting started and exploring step-by-step process to install including more helpful resources & FAQs.</p>
-        <p><b>Tools used : </b> HTML, CSS, Visual Studio Code, Git & GitHub</p> 
-        
-        <p><b>Project Links : </b><a href="https://github.com/charvi-rajput/userguide">Code</a> | <a href="https://charvi-rajput.github.io/userguide/">Site</a></p>
-
-        <br>
-
-        <li><strong>Swagger generated API Documentation</strong></li>
-        <p>These API documentations are generated using OpenAPI (Swagger) and provides a comprehensive, interactive overview of the available endpoints. It allows developers to explore and understand the API with ease.</p>
-        <p><b>Tools used : </b> Open API (Swagger), Swagger Editor, JSON, Git & GitHub</p> 
-        
-        <p><b>• Project 1 : </b><a href="https://github.com/charvi-rajput/musicapi">Code</a> | <a href="https://charvi-rajput.github.io/musicapi/">Site</a></p>
-
-        <p><b>• Project 2 : </b><a href="https://github.com/charvi-rajput/memeapi">Code</a> | <a href="https://charvi-rajput.github.io/memeapi/">Site</a></p>
-
-        <br>
-
-        <li><strong>API Documentation</strong></li>
-        <p>This API documentation is generated using MkDocs and provides a detailed API refrence of the available endpoints including error handling, quick start, version history & more.</p>
-        <p><b>Tools used : </b> Visual Studio Code, Markdown, MkDocs, Git & GitHub</p> 
-        
-        <p><b>Project Links : </b><a href="https://github.com/charvi-rajput/musicapi-docs">Code</a> | <a href="https://charvi-rajput.github.io/musicapi-docs/">Site</a></p>
-
-        <br>
-
-        <li><strong>SDK Documentation</strong></li>
-        <p>This OpenAI SDK documentation provides comprehensive guidance for developers integrating OpenAI's models into their applications. It covers the Javascript & Python SDK for accessing the REST API. This documentation includes installation instructions, usage examples, and detailed API references to facilitate seamless integration.</p>
-        <p><b>Tools used : </b> Visual Studio Code, Markdown, MkDocs, Git & GitHub</p> 
-        
-        <p><b>Project Links : </b><a href="https://github.com/charvi-rajput/musicapi-sdk-docs">Code</a> | <a href="https://charvi-rajput.github.io/musicapi-sdk-docs/">Site</a></p>
-
-        <br>
-
-        <li><strong>How-to Guides</strong></li>
-        <p>This how-to guide is a concise, step-by-step manual designed to help readers accomplish a specific task or solve a problem. These guides are clear, actionable, and tailored to the audience’s needs, & incorporates visuals or examples to enhance understanding.</p>
-        <p><b>Tools used : </b> Visual Studio Code, Markdown, MkDocs, Git & GitHub</p> 
-        
-        <p><b>Project Links : </b><a href="https://github.com/charvi-rajput/how-to-tutorial">Code</a> | <a href="https://charvi-rajput.github.io/how-to-tutorial/">Site</a></p>
-
-        <br>
-
-        <li><strong>Release Notes/ Changelogs</strong></li>
-        <p>These Release notes are concise documents accompanying software updates, detailing new features, improvements, and bug fixes, serving as a communication bridge between developers and users, enhancing transparency and user engagement.</p>
-        <p><b>Tools used : </b> Visual Studio Code, Markdown, MkDocs, Git & GitHub</p> 
-        
-        <p><b>Project Links : </b><a href="https://github.com/charvi-rajput/musicapi-docs">Code</a> | <a href="https://charvi-rajput.github.io/musicapi-docs/changelog/api-versions/">Site</a></p>
-
-        <br>
-
-      </ul>
-      <hr>
-    </section>
-
-    <section id="certi">
-      <h2>Certifications</h2>
-      <ul>
-        <li><strong>API Technical Writing: JSON & XML for Writers</strong> | <a href="https://drive.google.com/file/d/12p3hJDfOKxgrH5Euk-qXAMe6fKcjZY1w/view?usp=drive_link">Certificate</a></li>
-        <li><strong>API Technical Writing: REST for Writers</strong> | <a href="https://drive.google.com/file/d/1TcH7ZY15UpJY5eeBXbBNRUtlW9JVwWpV/view?usp=drive_link">Certificate</a></li>
-        <li><strong>Art of API Documentation</strong> | <a href="https://drive.google.com/file/d/1B0-XS3fQIAM-Ip_BmvJEzIGy2EE7cabG/view?usp=drive_link">Certificate</a></li>
-         <li><strong>Swagger & OpenAPI Specifications</strong> | <a href="https://drive.google.com/file/d/1snNKnhkD0rQtjRcp5tQSARmj-BdYAjtO/view?usp=drive_link">Certificate</a></li>
-      </ul>
-      <br>
-      <hr>
-    </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Technical Writer (Freelancer)</li>
-          </ul>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h2><i class="fas fa-star"></i> Core Skills</h2>
+          <div class="skill-items">
+            <span class="skill-item">Technical Communication</span>
+            <span class="skill-item">Technical Content Strategy</span>
+            <span class="skill-item">Content Design and Development</span>
+            <span class="skill-item">Information Architecture</span>
+          </div>
         </div>
-        <div class="job-date">Dec 2024 – Current</div>
-      </div>
 
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Creative Content Writer</li>
-            <p>Mathscare Education & Solution Pvt Ltd</p>
-          </ul>
+        <div class="skill-category">
+          <h2><i class="fas fa-file-alt"></i> Technical Content</h2>
+          <div class="skill-items">
+            <span class="skill-item">Implementation Guides</span>
+            <span class="skill-item">User Guides</span>
+            <span class="skill-item">Release Notes</span>
+            <span class="skill-item">API Documentation</span>
+            <span class="skill-item">SDK Documentation</span>
+            <span class="skill-item">Technical Specifications</span>
+          </div>
         </div>
-        <div class="job-date">Apr 2022 – Jan 2025</div>
-      </div>
 
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Ghost Writer (Contract)</li>
-            <p>Help in Homework</p>
-          </ul>
+        <div class="skill-category">
+          <h2><i class="fas fa-tools"></i> Documentation Tools</h2>
+          <div class="skill-items">
+            <span class="skill-item">Markdown + MkDocs</span>
+            <span class="skill-item">Sphinx</span>
+            <span class="skill-item">Microsoft Office</span>
+            <span class="skill-item">Madcap Flare</span>
+            <span class="skill-item">RoboHelp</span>
+            <span class="skill-item">oXyGen XML Editor</span>
+            <span class="skill-item">DITA</span>
+            <span class="skill-item">Confluence + Jira</span>
+            <span class="skill-item">Snagit</span>
+            <span class="skill-item">Canva</span>
+          </div>
         </div>
-        <div class="job-date">Jan 2022 – Apr 2022</div>
-      </div>
 
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Content Writer (Contract)</li>
-            <p>Dr K R Shroff Foundation</p>
-          </ul>
+        <div class="skill-category">
+          <h2><i class="fas fa-code"></i> Technical Software</h2>
+          <div class="skill-items">
+            <span class="skill-item">Git</span>
+            <span class="skill-item">GitHub</span>
+            <span class="skill-item">Postman</span>
+            <span class="skill-item">OpenAPI (Swagger)</span>
+          </div>
         </div>
-        <div class="job-date">Nov 2021 – Feb 2022</div>
-      </div>
 
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Content Writer (Contract)</li>
-            <p>Chalchaley Foundation</p>
-          </ul>
+        <div class="skill-category">
+          <h2><i class="fas fa-laptop-code"></i> Programming Skills</h2>
+          <div class="skill-items">
+            <span class="skill-item">HTML + CSS</span>
+            <span class="skill-item">XML</span>
+            <span class="skill-item">JSON</span>
+            <span class="skill-item">YAML</span>
+            <span class="skill-item">Python</span>
+          </div>
         </div>
-        <div class="job-date">Dec 2021 – Feb 2022</div>
-      </div>
-
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Content Writer (Contract)</li>
-            <p>Kalpakta Education Foundation</p>
-          </ul>
-        </div>
-        <div class="job-date">Sept 2021 – Dec 2021</div>
-      </div>
-
-      <div class="job-header">
-        <div class="job-title">
-          <ul>
-            <li>Content Writer (Contract)</li>
-            <p>DDL Foundation</p>
-          </ul>
-        </div>
-        <div class="job-date">Jan 2021 – Aug 2021</div>
-      </div>
-      <hr>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <div class="ed-header">
-        <div class="ed-title">
-          <ul>
-            <li>Bachelor of Science in Information Technology</li>
-            <p>Auro University, Surat</p>
-          </ul>
-        </div>
-        <div class="ed-date">July 2017 – May 2020</div>
       </div>
     </section>
 
-    <footer>
-      <p>&copy; 2025 Charvi Rajput. All rights reserved.</p>
-    </footer>
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h1>Projects</h1>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>User Guide Documentation</h3>
+            <div class="project-links">
+              <a href="https://github.com/charvi-rajput/userguide" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a href="https://charvi-rajput.github.io/userguide/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+          <p>This User Guide provides clear and concise instructions to help and install SQLite effectively. It covers everything from getting started and exploring step-by-step process to install including more helpful resources & FAQs.</p>
+          <div class="project-tech">
+            <span class="tech-item">HTML</span>
+            <span class="tech-item">CSS</span>
+            <span class="tech-item">VS Code</span>
+            <span class="tech-item">Git</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>API Documentation</h3>
+            <div class="project-links">
+              <a href="https://github.com/charvi-rajput/musicapi-docs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a href="https://charvi-rajput.github.io/musicapi-docs/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+          <p>This API documentation is generated using MkDocs and provides a detailed API reference of the available endpoints including error handling, quick start, version history & more.</p>
+          <div class="project-tech">
+            <span class="tech-item">Markdown</span>
+            <span class="tech-item">MkDocs</span>
+            <span class="tech-item">VS Code</span>
+            <span class="tech-item">Git</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>SDK Documentation</h3>
+            <div class="project-links">
+              <a href="https://github.com/charvi-rajput/musicapi-sdk-docs" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a href="https://charvi-rajput.github.io/musicapi-sdk-docs/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live
+              </a>
+            </div>
+          </div>
+          <p>This OpenAI SDK documentation provides comprehensive guidance for developers integrating OpenAI's models into their applications. It covers the Javascript & Python SDK for accessing the REST API.</p>
+          <div class="project-tech">
+            <span class="tech-item">Markdown</span>
+            <span class="tech-item">MkDocs</span>
+            <span class="tech-item">VS Code</span>
+            <span class="tech-item">Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certi" class="section">
+      <div class="section-header">
+        <h1>Certifications</h1>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <i class="fas fa-award"></i>
+          <h3>API Technical Writing: JSON & XML for Writers</h3>
+          <a href="https://drive.google.com/file/d/12p3hJDfOKxgrH5Euk-qXAMe6fKcjZY1w/view" target="_blank" class="cert-link">
+            View Certificate <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="cert-card">
+          <i class="fas fa-award"></i>
+          <h3>API Technical Writing: REST for Writers</h3>
+          <a href="https://drive.google.com/file/d/1TcH7ZY15UpJY5eeBXbBNRUtlW9JVwWpV/view" target="_blank" class="cert-link">
+            View Certificate <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="cert-card">
+          <i class="fas fa-award"></i>
+          <h3>Art of API Documentation</h3>
+          <a href="https://drive.google.com/file/d/1B0-XS3fQIAM-Ip_BmvJEzIGy2EE7cabG/view" target="_blank" class="cert-link">
+            View Certificate <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="cert-card">
+          <i class="fas fa-award"></i>
+          <h3>Swagger & OpenAPI Specifications</h3>
+          <a href="https://drive.google.com/file/d/1snNKnhkD0rQtjRcp5tQSARmj-BdYAjtO/view" target="_blank" class="cert-link">
+            View Certificate <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h1>Experience</h1>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Technical Writer (Freelancer)</h3>
+            <p class="timeline-date">Dec 2024 – Current</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Creative Content Writer</h3>
+            <p class="company">Mathscare Education & Solution Pvt Ltd</p>
+            <p class="timeline-date">Apr 2022 – Jan 2025</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Ghost Writer (Contract)</h3>
+            <p class="company">Help in Homework</p>
+            <p class="timeline-date">Jan 2022 – Apr 2022</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Content Writer (Contract)</h3>
+            <p class="company">Dr K R Shroff Foundation</p>
+            <p class="timeline-date">Nov 2021 – Feb 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h1>Get In Touch</h1>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <a href="mailto:charvrajput@gmail.com" target="_blank">charvrajput@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/charvi-rajput-b90b98148" target="_blank">Connect on LinkedIn</a>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <a href="https://github.com/charvi-rajput" target="_blank">Follow on GitHub</a>
+        </div>
+      </div>
+    </section>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
