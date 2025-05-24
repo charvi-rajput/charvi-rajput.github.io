@@ -80,14 +80,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   z-index: 100;
+  overflow: hidden;
 }
 
 .profile-container {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
 }
 
 #photo {
@@ -113,7 +114,28 @@ body {
 
 .nav-links {
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  overflow-y: auto;
+  flex-grow: 1;
+  padding-right: 0.5rem;
+}
+
+.nav-links::-webkit-scrollbar {
+  width: 4px;
+}
+
+.nav-links::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.nav-links::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.nav-links::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .nav-links a {
@@ -139,8 +161,10 @@ body {
 }
 
 .social-links {
+  margin-top: 1rem;
   display: flex;
   gap: 1rem;
+  flex-shrink: 0;
 }
 
 .social-icon {
