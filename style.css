@@ -1,0 +1,270 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #fafafa;
+  color: #121212;
+  display: flex;
+  font-size:large;
+  line-height: 1.5em;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 220px;
+  background-color: #121212;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 5px rgb(41, 39, 39);
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5em;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+  text-shadow: 2px 2px 8px #242f61;
+  letter-spacing: normal;
+  transition: letter-spacing 0.3s ease;
+}
+
+.sidebar a:hover {
+  letter-spacing: 2.5px;
+}
+
+#photo{
+    height: 180px;
+    width: 180px;
+    border: 8px solid #353434, ;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px #000000;
+}
+
+
+#intro h1 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 45px;
+  margin-bottom: 0.2rem;
+}
+
+#intro p {
+  color: #121212;
+  margin-bottom: 1.5em ;
+  margin-top: 1em;
+}
+
+.main-content {
+  max-width: 900px;
+  padding: 3rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #121212;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+#linkedin {
+  display: inline;
+}
+
+.linkin-img {
+  text-decoration: none;
+}
+
+.linkimg {
+  height: 50px;
+  width: 50px;
+  padding: 0.5em;
+  padding-top:0.5em;
+  transition: transform 0.3s ease;
+}
+
+.linkimg:hover {
+  transform: scale(1.2);
+}
+
+.git-img {
+  text-decoration: none;
+}
+
+.gitimg {
+  height: 47px;
+  width: 47px;
+  padding: 0.5em;
+  padding-top: 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.gitimg:hover {
+  transform: scale(1.2);
+}
+
+.mail-img {
+  text-decoration: none;
+}
+
+.mailimg {
+  height: 50px;
+  width: 50px;
+  padding: 0.5em;
+  padding-top: 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.mailimg:hover {
+  transform: scale(1.2);
+}
+
+#skills h1 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+#skills h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+
+#skills ul {
+  list-style-type: disc;
+}
+
+#skills li {
+  display: inline-block ;
+  margin-right: 0.8em;
+}
+
+#projects h2 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+#projects li {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#projects p{
+  padding-top: 0.5em;
+}
+
+#projects a{
+  text-decoration: none;
+}
+
+#certi h2 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+#certi li {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.3em;
+}
+
+#certi a{
+  text-decoration: none;
+}
+
+#experience h2 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+.job-header {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.job-title p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.job-date {
+  font-size: 18px;
+}
+
+#education h2 {
+  font-family:Impact;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+.ed-header {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ed-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ed-title p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.ed-date {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: left;
+}
